@@ -215,3 +215,20 @@ video {
     color: black;
     text-decoration: none;
 }
+@media only screen and (max-width:500px) {
+    .container--one {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .container--banner img {
+    width: 30em;
+    }
+    .container--img--main {
+    display: none;
+    }
+    .main--right .orientation, .main--right .ourcampus, .main--right .ourguestlecture {
+    display: block;
+    justify-items: center;
+    width: 30em;
+    }
+}
