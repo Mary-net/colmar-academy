@@ -29,6 +29,9 @@ nav a {
     font-size: 18px;
     text-decoration: none;
 }
+nav {
+    margin-right: 3%;
+}
 .container--one {
     background-color: lightblue;
     max-width: 100%;
@@ -254,4 +257,12 @@ video {
 }
 nav #icon {
     margin: 50px;
+}
+@media only screen and (max-width:700px) {
+    .containerfour--img {
+    display: none;
+    }
+    #ru {
+    display: none;
+    }
 }
