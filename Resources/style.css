@@ -64,6 +64,9 @@ nav {
     background-color: darkslategrey;
     font-size: large;
 }
+#button-start:hover {
+    background-color: gray;
+}
 .container--two {
     display: flex;
     max-width: 100%;
@@ -294,7 +297,4 @@ td {
     border: 8px solid white;
     font-size: x-large;
     font-weight:bold;
-}
-table {
-    margin-bottom: 5%;
 }
