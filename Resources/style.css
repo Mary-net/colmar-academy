@@ -92,6 +92,9 @@ nav {
     margin: 3% 0%;
     width: 40%;
 }
+.main--right a {
+    text-decoration: none;
+}
 
 div.orientation {
     display: flex;
