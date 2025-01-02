@@ -86,7 +86,6 @@ nav {
 }
 .container--img--main {
     display: block;
-    background-color: yellow;
     width: 56%;
 }
 .main--right {
@@ -111,7 +110,6 @@ div.ourguestlecture {
 }
 .text--orientation {
     align-content: center;
-    background-color: blueviolet;
     text-align:center;
     width: 30em;
     font-size: large;
@@ -120,14 +118,12 @@ div.ourguestlecture {
     align-content: center;
     text-align: center;
     width: 30em;
-    background-color: aqua;
     font-size: large;
 }
 .text--ourguestlecture {
     align-content: center;
     text-align: center;
     width: 30em;
-    background-color: bisque;
     font-size: large;
 }
 .container--three {
@@ -163,7 +159,6 @@ div.ourguestlecture {
     width: 100%;
 }
 .container--four {
-    background-color: chocolate;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
