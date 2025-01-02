@@ -249,9 +249,15 @@ video {
     nav #icon {
     display: none;
     }
+    table {
+    display: none;
+    }
 }
 @media only screen and (max-width: 700px) {
     nav #text {
+    display: none;
+    }
+    .container--three {
     display: none;
     }
 }
@@ -265,4 +271,30 @@ nav #icon {
     #ru {
     display: none;
     }
+    .container--three img, .container--three p {
+    display: none;
+    }
+}
+.rows {
+    background-color: lightblue;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.rows a {
+    color: black;
+    text-decoration: none;
+}
+.rows a:hover {
+    color: darkslategrey;
+}
+td {
+    padding: 30px;
+    text-align: center;
+    border: 8px solid white;
+    font-size: x-large;
+    font-weight:bold;
+}
+table {
+    margin-bottom: 5%;
 }
