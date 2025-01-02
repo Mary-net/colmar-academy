@@ -2,7 +2,6 @@ html {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    height: auto;
 }
 header {
     height: 64px;
@@ -10,6 +9,14 @@ header {
     justify-content: space-between;
     align-items: center;
     display: flex;
+    position:fixed;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid darkslategrey;
+}
+main {
+    position: relative;
+    top: 64px;
 }
 
 .title {
